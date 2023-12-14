@@ -1,0 +1,133 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin-bottom: -10px;
+}
+header img{
+    width: 50px;
+    height: 50px;
+    margin-right: 900px;
+    margin-left: 300px;
+}
+#headerdiv{
+    display: flex;
+    flex: 1 ;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #1F2937;
+}
+
+#headerdiv a{
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background-color: #1F2937;
+    padding-right: 450px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+#maintext{
+    color: #F9FAF8;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    margin-left: 200px;
+    margin-bottom: 0;
+}
+#headerimg{
+    height: 280px;
+    width: 400px;
+}
+#secondtext{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-left: 200px;
+    margin-top: 0;
+}
+#signupheader{
+    margin-top: 0;
+    margin-left: 200px;
+}
+.signup{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+#footer{
+    width: 450px;
+    border: #3882F6 2px solid;
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 720px;
+    gap: 80px;
+    color: #E5E7EB;
+    margin-top: 80px;
+}
+#quote{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 16px;
+    font-style: light italic;
+    text-align: center;
+    padding: 20px;
+}
+.imgs{
+    width: 100px;
+    height: 100px;
+    border: #3882F6 2px solid;
+    border-radius: 10%;
+}
+#random{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    background-color: #ffffff;
+}
+h3{
+    text-align: center;
+    background-color: #ffffff;
+}
+#subtext{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    gap: 90px;
+    justify-content: center;
+    background-color: #ffffff;
+}
+footer{
+    margin-top: 80px;
+    text-align: center;
+    background-color: #1F2937;
+    padding: 20px;
+    font-size: 15px;
+    color: #E5E7EB;
+}
+#header span{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    
+}
+#rating{
+    font-size: 20px;
+}
